@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<style>
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .markSheet {
+        border: 1px solid #000;
+        border-radius: 10px;
+        background-color: #EEE8AA;
+    }
+
+    .header {
+        margin: 5px;
+    }
+
+    .main1 p {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .main2 p {
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .header1 p {
+        font-weight: bold;
+    }
+
+    .header1 p span {
+        font-size: 20px;
+    }
+
+    .header1 h3 {
+        font-weight: bold;
+    }
+
+    .comp {
+        background-color: teal;
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+
+    .comp p {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 10px;
+        margin: 10px;
+    }
+
+    .comp p span {
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .footer {
+        background-color: #EEE8AA;
+        padding-bottom: 10px;
+        border-radius: 10px;
+
+    }
+
+    .footer p {
+        font-weight: 700;
+        margin-top: 80px;
+        text-align: center;
+        font-size: 15px;
+    }
+</style>
+
+<body>
+    <div class="container markSheet">
+
+
+        <div class="row header">
+            <div class="col-md-6">
+                <div class="main1">
+                    <p>SERIAL NO.</p>
+                    <h2>0336894</h2>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main2">
+                    <p>B02154</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row header1">
+            <div class="col-md-12">
+                <center>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Board_of_Secondary_Education%2C_Karachi_Logo.png"
+                        alt="Board Of Secondary Education">
+                    <p>STATEMENT OF MARKS <br> <span>S.S.C EXAMINATION</span></p>
+
+                    <h3>SCIENCE GROUP</h3>
+                </center>
+            </div>
+        </div>
+
+        <div class="row comp">
+            <div class="col-md-12">
+                <table>
+                    <tr>
+                        <td style=" padding-right: 70px; font-weight: 600;">EXAMINATION</td>
+                        <th>ANNUAL 2019</th>
+                        <td style="padding-right: 90px; font-weight: 600;">ROLL NUMBER</td>
+                        <th>005599</th>
+                    </tr>
+                    <tr style="font-weight: 500;">
+                        <td>NAME</td>
+                        <td> MUHAMMAD YAHIYA</td>
+                    </tr>
+                    <tr style="font-weight: 500;">
+                        <td>FATHER'S NAME</td>
+                        <td> MUHAMMAD ASIF</td>
+                    </tr>
+                    <tr style="font-weight: 500;">
+                        <td>DATE OF BIRTH</td>
+                        <td>17-02-2004 ( SEVENTEETH FEBRUARY TWO THOUSAND FOUR)</td>
+                    </tr>
+                    <tr style="font-weight: 500;">
+                        <td>NAME OF SCHOOL</td>
+                        <td>NASRA SEC SHOOL N01 <br> ST-2, SECTOR NO.5-J, NORTH KARACHI</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="row comp">
+            <div class="col-md-12">
+                <center>
+                    <table border="1" style="text-align: center;">
+                        <tr>
+                            <th rowspan="2">S NO.</th>
+                            <th rowspan="2" style="padding-left: 30px; padding-right: 30px;">SUBJECTS</th>
+                            <th colspan="2">MAXIMUM MARKS</th>
+                            <th colspan="2">MINIMUM MARKS</th>
+                            <th colspan="3">OBTAINED MARKS</th>
+                            <th>REMARKS</th>
+                        </tr>
+                        <tr>
+                            <td>TH</td>
+                            <td>PR</td>
+                            <td>TH</td>
+                            <td>PR</td>
+                            <td>TH</td>
+                            <td>PR</td>
+                            <td>TOTAL</td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="row comp">
+            <div class="col-md-12">
+                <center>
+                    <P>GRAND TOTAL: <span>650/850</span> GRADE: <span>B</span></P>
+                </center>
+            </div>
+        </div>
+
+        <div class="row footer">
+            <div class="col-md-4">
+                <p>25-July-2019 <br> Date Of Issue <br>
+                    <span>Note: Errors and Omission are excepted.</span>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p style="margin-top: 125px;">Assistant Director System</p>
+            </div>
+            <div class="col-md-4">
+                <p style="margin-top: 125px;">Controller of Examinations</p>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
